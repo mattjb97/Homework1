@@ -21,7 +21,7 @@ h1 {
     font-size: 48px;
 }
 
-h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 /* Styles on the Header Bar at the Top of the Screen */
@@ -46,7 +46,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Main Image */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,17 +55,7 @@ a {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Marketing tools and Images*/
 .content {
     width: 75%;
     display: inline-block;
@@ -84,8 +74,7 @@ a {
     color: #ffffff;  
 }
 
-/* it seems liek each block of 3 is the same so these next are as well  */
-.search-engine-optimization {
+.Markering-tools {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -94,67 +83,41 @@ a {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* next 3 */
-.search-engine-optimization img {
+.Markering-tools img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-/* next 3 */
-.search-engine-optimization h2 {
+.Markering-tools h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 /* Creating the Spacing for the Benifits Secition */
-.benefit {
+.benefits {
     margin-bottom: 32px;
 }
 
-.benefit h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* footer */
 .footer {
     padding: 30px;
     clear: both;
